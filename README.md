@@ -1,2 +1,5 @@
-# digidense-learning-src-frontend
-This repository maintain frontend code of learning application
+This repository is created for learning Git and GitHub.
+
+## Lab 1
+
+Getting familiar with Git repository.
