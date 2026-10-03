@@ -1,8 +1,4 @@
-resource "aws_instance" "example" {
-  ami           = "ami-123456"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "new-name"
-  }
+resource "azurerm_resource_group" "rg" {
+  location = "eastus"
+  name     = "dev-rg-3"
 }
