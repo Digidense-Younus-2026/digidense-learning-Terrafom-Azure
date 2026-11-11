@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg1" {
   location = "eastus"
-  name     = "dev-rg-1"
+  name     = "dev-rg-2"
 }
 data "azurerm_subscription" "main" {
   subscription_id = "4ffc4be1-d195-4e71-aa14-07e148042f6c"
