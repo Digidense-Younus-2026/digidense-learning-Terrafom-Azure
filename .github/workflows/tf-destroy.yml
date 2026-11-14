@@ -1,4 +1,4 @@
-name: Terraform pipe to deploy resoruces on azure
+name: Terraform pipeline to destroy resoruces on azure
 
 on:
   workflow_dispatch:
