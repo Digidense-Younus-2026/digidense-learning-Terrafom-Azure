@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "rg1" {
   location = "eastus"
   name     = "dev-rg-2"
 }
-data "azurerm_subscription" "main" {
+/*data "azurerm_subscription" "main" {
   subscription_id = "4ffc4be1-d195-4e71-aa14-07e148042f6c"
 }
 resource "azuread_user" "user1" {
@@ -31,4 +31,4 @@ resource "azurerm_role_assignment" "role_attachment" {
   principal_id         = azuread_group.Group1.object_id
   scope                = data.azurerm_subscription.main.id
   role_definition_name = "Reader"
-}
+}*/
