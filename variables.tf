@@ -36,5 +36,5 @@ variable "admin_source_ip" {
 
 variable "ssh_public_key_path" {
   type    = string
-  default = "\c\Users\HP\.ssh\id_ed25519.pub"
+  default = "\\c\\Users\\HP\\.ssh\\id_ed25519.pub"
 }
