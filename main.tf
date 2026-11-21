@@ -129,7 +129,7 @@ resource "azurerm_linux_virtual_machine" "mainvm" {
   # SSH Public Key Authentication
   admin_ssh_key {
     username   = var.admin_username
-    public_key = file("C:\Users\HP\.ssh\id_ed25519.pub")
+    public_key = file("C:/Users/HP/.ssh/id_ed25519.pub")
   }
 
   # Operating System Disk
